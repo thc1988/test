@@ -1,3 +1,6 @@
+`include "Opcode.vh"
+`include "ALUop.vh"
+
 module CtrlUnit(input [5:0] Op,fucnt,
 		input [4:0] rt,
 		output reg MemtoReg, //done
